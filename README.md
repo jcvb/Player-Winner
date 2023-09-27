@@ -20,7 +20,7 @@ The following technologies and libraries were employed in the development of thi
 
 - **[@testing-library](https://testing-library.com/)**: A family of libraries that allows for easy and clean testing of UI components.
 
-- **[Shade UI Library](https://ui.shade.cn.com/)**: A comprehensive library of pre-designed components, aiding in swift and consistent UI
+- **[Shadcn/ui Library](https://ui.shadcn.com/)**: Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source
 
 
 ## Demo
