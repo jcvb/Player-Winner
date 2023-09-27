@@ -43,6 +43,11 @@ const FileUploader: FC = () => {
       setError('No file selected.');
       return;
     }
+    const fileExtension = file.name.split('.').pop();
+    if (fileExtension !== 'txt') {
+      setError('Invalid file type. Only .txt files are accepted.');
+      return;
+    }
     const reader = new FileReader();
     reader.onload = (e: ProgressEvent<FileReader>) => {
       const content = e.target?.result?.toString();
@@ -158,7 +163,12 @@ const FileUploader: FC = () => {
                   id="message"
                 />
               ) : (
-                <Input id="file" type="file" onChange={handleFileChange} />
+                <Input
+                  id="file"
+                  type="file"
+                  onChange={handleFileChange}
+                  accept=".txt"
+                />
               )}
             </CardContent>
             <CardFooter className="flex justify-between">
