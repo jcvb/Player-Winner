@@ -81,7 +81,7 @@ Example output file content:
 1. Clone the repository:
 ```bash
 git clone https://github.com/jcvb/Player-Winner.git
-cd encrypted-instructions-decoder
+cd Player-Winner
 ```
 
 # Available Scripts
