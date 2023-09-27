@@ -1,6 +1,6 @@
 # Encrypted Instructions Decoder
 
-![App](https://i.ibb.co/dtC4F7R/Screenshot-2023-09-26-at-7-23-19-p-m.png)
+![App](https://i.ibb.co/R9WwDph/Screenshot-2023-09-27-at-12-42-24-p-m.png)
 
 This project consists of a competitive game between two players across several rounds. At the end of each round, each player obtains a score, and the accumulated score along with the difference (lead) are observed. The winner of the game is the player who achieves the greatest lead at the end of any round during the game.
 
