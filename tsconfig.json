@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/lib/*": ["src/lib/*"],
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "es2015",
+      "es6",
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "types": [
+      "vitest/globals",
+      "node",
+      "jest",
+      "@testing-library/jest-dom"
+    ],
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "vite.config.ts",
+    ".eslintrc.cjs",
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
